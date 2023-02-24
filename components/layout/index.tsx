@@ -6,7 +6,7 @@ import React from "react";
 
 export default function Main({ children, ...props }:any) {
     return (
-        <main className="wrapper bg-black">
+        <main className="wrapper ">
         <div className="max-w-2xl mx-auto container px-4">
           <div className="container mx-auto">
        {children}
